@@ -1,74 +1,125 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>2025 최첨단 IT 학술컨퍼런스</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2025 IT Research Conference</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>2025 최첨단 IT 공동 연구 학술 컨퍼런스</h1>
-            <nav>
-                <ul>
-                    <li><a href="#home">홈</a></li>
-                    <li><a href="#about">소개</a></li>
-                    <li><a href="#program">프로그램</a></li>
-                    <li><a href="#registration">등록</a></li>
-                    <li><a href="#contact">문의</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
-    <section id="home" class="hero">
-        <div class="container">
-            <h2>글로벌 연구와 혁신의 만남</h2>
-            <p>2025년 6월 20일 ~ 6월 23일 | COEX, 서울</p>
-            <a href="#registration" class="btn">지금 등록하기</a>
-        </div>
-    </section>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="assets/logo.png" alt="Conference Logo" height="30"> IT Research Conference 2025</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
+          <li class="nav-item"><a class="nav-link" href="#speakers">Speakers</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <section id="about" class="about">
-        <div class="container">
-            <h2>컨퍼런스 소개</h2>
-            <p>최첨단 IT 공동 연구 학술 컨퍼런스는 해외 유수 대학 및 연구소와 협력하여 최신 IT 기술과 연구 동향을 공유하는 자리입니다. 글로벌 연구 역량 강화를 위한 협력의 장이 될 이번 행사에 많은 관심과 참여 부탁드립니다.</p>
-        </div>
-    </section>
+  <!-- Hero Section -->
+  <header class="hero bg-light text-center py-5">
+    <div class="container">
+      <h1 class="display-4">2025 IT 공동 연구 학술 컨퍼런스</h1>
+      <p class="lead">미래를 연결하는 혁신과 연구의 장</p>
+      <a href="#register" class="btn btn-primary btn-lg">지금 등록하기</a>
+    </div>
+  </header>
 
-    <section id="program" class="program">
-        <div class="container">
-            <h2>프로그램 일정</h2>
-            <ul>
-                <li><strong>6월 20일:</strong> 개회식 및 주요 발표</li>
-                <li><strong>6월 21일:</strong> 패널 토의 및 워크숍</li>
-                <li><strong>6월 22일:</strong> 네트워킹 세션 및 결과 발표</li>
-                <li><strong>6월 23일:</strong> 폐회식 및 후속 협력 논의</li>
-            </ul>
-        </div>
-    </section>
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">About the Conference</h2>
+      <p>최첨단 IT 공동 연구 학술 컨퍼런스 2025는 AI, IoT, 양자 컴퓨팅 등 최신 IT 기술을 탐구하는 국제 연구의 장입니다. 국내외 연구자와 글로벌 IT 기업들이 모여 협력의 미래를 논의합니다.</p>
+    </div>
+  </section>
 
-    <section id="registration" class="registration">
-        <div class="container">
-            <h2>등록 안내</h2>
-            <p>컨퍼런스에 참가하려면 아래 버튼을 클릭하여 사전 등록을 진행해 주세요.</p>
-            <a href="#" class="btn">등록하기</a>
+  <!-- Schedule Section -->
+  <section id="schedule" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Conference Schedule</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Day 1: June 20</h4>
+          <p>- 개회식 및 기조연설</p>
+          <p>- 연구 발표: AI & 빅데이터</p>
         </div>
-    </section>
+        <div class="col-md-4">
+          <h4>Day 2: June 21</h4>
+          <p>- 연구 발표: 블록체인 & IoT</p>
+          <p>- 산학 협력 워크숍</p>
+        </div>
+        <div class="col-md-4">
+          <h4>Day 3: June 22</h4>
+          <p>- 연구 발표: 양자 컴퓨팅</p>
+          <p>- 폐회식 및 성과 공유</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>문의하기</h2>
-            <p>더 궁금한 사항이 있으시면 아래 이메일로 연락해 주세요.</p>
-            <p>Email: <a href="mailto:info@conference2025.org">info@conference2025.org</a></p>
+  <!-- Speakers Section -->
+  <section id="speakers" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Keynote Speakers</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title">Dr. John Doe</h5>
+              <p class="card-text">AI 전문가, MIT</p>
+            </div>
+          </div>
         </div>
-    </section>
+        <div class="col-md-6">
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title">Prof. Jane Smith</h5>
+              <p class="card-text">양자 컴퓨팅 연구자, 스탠포드</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 최첨단 IT 공동 연구 학술 컨퍼런스. All Rights Reserved.</p>
+  <!-- Contact Section -->
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Us</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" required>
         </div>
-    </footer>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 IT Research Conference. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
